@@ -16,17 +16,17 @@ public class Comparison
         num2 = input.nextInt(); // read second number from user               
         
         if ( number1 == number2 )           
-            Systm.out.printf( "%d == %d\n", number1, number2 );  
+            Systm.out.print( "%d == %d\n", number1, number2 );  
         if ( number1 != number2 )          
-            System.out.printf( "%d != %d\n", number1, number2 );  
+            System.out.print( "%d != %d\n", number1, number2 );  
         if ( number1 < number2 )          
-            System.out.printf( "%d < %d\n", number1, number2 );  
+            System.out.print( "%d < %d\n", number1, number2 );  
         if ( number1 > number2 )          
-            System.out.printf( "%d > %d\n", number1, number2 );  
+            System.out.print( "%d > %d\n", number1, number2 );  
         if ( number1 <= number2 )          
-            System.out.printf( "%d <= %d\n", number1, number2 );  
+            System.out.print( "%d <= %d\n", number1, number2 );  
         if ( number1 >= number2 )          
-            System.out.printf( "%d >= %d\n", number1, number2 );  
+            System.out.print( "%d >= %d\n", number1, number2 );  
     }
    } // end method main  
 } // end class Comparison 
